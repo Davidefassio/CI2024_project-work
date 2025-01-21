@@ -61,7 +61,7 @@ def mutation_constant(individual: Tree) -> None:
     """
     Mutation of constant values.
 
-    Selects a node of type constant in the tree (if aviable) and mutate its value.
+    Selects a node of type constant in the tree (if available) and mutate its value.
     """
     # List all nodes of type constant    
     idxs = []
