@@ -51,7 +51,7 @@ The following genetic operators are implemented to evolve solutions:
 
 - Crossover Subtree: Swap a subtree in one parent with a subtree from another parent.
 - Mutation Single Point: Modifies a single node in the tree while maintaing the type.
-- Mutation Constants: Adjusts the values of all constants to refine solutions.
+- Mutation Constants: Adjusts the values of a node of type constant to refine solutions.
 - Mutation Hoist: Replaces a tree with one of its subtrees, effectively reducing tree size.
 - Mutation Subtree: Replaces a subtree with a new subtree generated randomly with the grow method.
 
